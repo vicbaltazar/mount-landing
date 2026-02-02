@@ -22,15 +22,6 @@ Página não oficial que reúne as principais plataformas e redes sociais do Mou
 - Open Graph para compartilhamento
 - Animações de entrada
 
-## 📁 Estrutura
-
-mount-landing/
-├── index.html
-├── styles.css
-├── main.js
-├── image/mount.jpg
-└── favicon/icons8-m-50.png
-
 ## 🚀 Como Usar
 
 1. Clone ou baixe o repositório
