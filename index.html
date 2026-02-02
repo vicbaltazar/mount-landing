@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mount • Streamer na Twitch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO básico -->
+    <meta
+      name="description"
+      content="Página não oficial inspirada no streamer Mount, com links para Twitch, YouTube, redes sociais e arquivo de lives."
+    />
+
+    <!-- Favicon (ajuste o caminho do arquivo) -->
+    <link rel="icon" href="favicon/icons8-m-50.png" type="image/png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mount • Streamer na Twitch" />
+    <meta
+      property="og:description"
+      content="Landing page feita como estudo de frontend, reunindo as principais plataformas do Mount."
+    />
+    <meta property="og:url" content="https://vicbaltazar.github.io/mount-landing" />
+    <meta
+      property="og:image"
+      content="https://vicbaltazar.github.io/mount-landing/og-image.png"
+      />
+    <meta property="og:locale" content="pt_BR" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mount • Streamer na Twitch" />
+    <meta
+      name="twitter:description"
+      content="Landing page feita como estudo de frontend, reunindo as principais plataformas do Mount."
+    />
+    <meta
+      name="twitter:image"
+      content="https://vicbaltazar.github.io/mount-landing/og-image.png"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo">MOUNT</div>
+
+      <button class="theme-toggle" type="button" aria-label="Alternar tema">
+        <i class="fa-solid fa-music"></i>
+      </button>
+
+      <nav class="header__nav">
+        <a href="#home">início</a>
+        <a href="#about">sobre</a>
+        <a href="#shows">quadros</a>
+        <a href="#vods">vods</a>
+        <a href="#youtube">youtube</a>
+        <a href="#community">comunidade</a>
+        <a href="#contact">contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO / HOME -->
+      <section id="home" class="hero">
+        <div class="hero__content">
+          <div class="badge">
+            <span class="badge__dot"></span>
+            <span>just chatting • twitch</span>
+          </div>
+
+          <h1 class="hero__title">
+            oi, eu sou <span>Mount</span>
+          </h1>
+
+          <p class="hero__subtitle">
+            Streamer brasileiro de Just Chatting na Twitch, construindo uma
+            comunidade para trocar ideia, dar risada e reagir com o chat ao
+            vivo.
+          </p>
+
+          <div class="hero__buttons">
+            <a
+              href="https://www.twitch.tv/mount"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn--primary"
+            >
+              Assistir na Twitch <span>▶</span>
+            </a>
+
+            <a href="#contact" class="btn btn--ghost">
+              Parcerias &amp; contato
+            </a>
+          </div>
+
+          <div class="hero__meta">
+            <span>+1.2M seguidores na Twitch</span>
+            <span>Just Chatting, conversas e reacts</span>
+            <span>Baseado no Brasil</span>
+          </div>
+        </div>
+
+        <div class="hero__side">
+          <div class="hero-avatar">
+            <img src="image/mount.jpg" alt="Foto do streamer Mount" />
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card__inner">
+              <div class="hero-card__header">
+                <div class="hero-card__title">Canal ao vivo</div>
+                <div class="hero-card__status">ao vivo agora</div>
+              </div>
+
+              <div class="hero-card__main">
+                <h2>twitch.tv/mount</h2>
+                <p>
+                  Conversa com o chat, histórias aleatórias e momentos caóticos
+                  que só existem em live.
+                </p>
+              </div>
+
+              <div class="hero-card__footer">
+                <div>
+                  <div>Seguidores</div>
+                  <strong>1.2M+</strong>
+                </div>
+                <div>
+                  <div>Média (30 dias)</div>
+                  <strong>2.1K viewers</strong>
+                </div>
+                <span class="hero-card__tag">Just Chatting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section id="about" class="section section--alt">
+        <div class="section__inner">
+          <h2 class="section__title">sobre o Mount</h2>
+          <p class="section__text">
+            Gabriel Montresor, mais conhecido como Mount, é streamer e criador
+            de conteúdo na Twitch, reconhecido pelas lives de Just Chatting,
+            participação em projetos da cena de streaming brasileira e pela
+            comunidade que acompanha suas transmissões diariamente.
+          </p>
+        </div>
+      </section>
+
+      <!-- QUADROS / “PROJETOS” -->
+      <section id="shows" class="section">
+        <div class="section__inner">
+          <div class="section__header-line">
+            <h2 class="section__title">quadros da live</h2>
+            <p class="section__subtitle">
+              Alguns formatos que mais aparecem nas lives do Mount.
+            </p>
+          </div>
+
+          <div class="cards-grid">
+            <article class="card">
+              <h3 class="card__title">Just Chatting</h3>
+              <p class="card__text">
+                Bate-papo livre com o chat, histórias, desabafos e conversas
+                sobre tudo um pouco.
+              </p>
+              <span class="card__tag">ao vivo todo dia</span>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Reacts com o chat</h3>
+              <p class="card__text">
+                Assistindo vídeos, clipes e conteúdos enviados pela comunidade,
+                sempre com muita zoeira.
+              </p>
+              <span class="card__tag">participação do chat</span>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Momentos especiais</h3>
+              <p class="card__text">
+                Metas de sub, aniversários, eventos especiais e colabs com
+                outros criadores.
+              </p>
+              <span class="card__tag">eventos</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- VODS / ARQUIVO DAS LIVES -->
+      <section id="vods" class="section section--alt">
+        <div class="section__inner">
+          <h2 class="section__title">arquivo das lives</h2>
+          <p class="section__text">
+            As transmissões completas ficam salvas no canal de VODs, com Just
+            Chatting, games e momentos especiais pra quem perdeu a live ou quer
+            rever tudo.
+          </p>
+
+          <div class="cards-grid" style="margin-top: 2rem;">
+            <article class="card">
+              <h3 class="card__title">Canal de VODs · @mountvods</h3>
+              <p class="card__text">
+                Lives completas, com conversas, reagindo com o chat e gameplay,
+                organizadas em playlists no YouTube.
+              </p>
+              <a
+                href="https://www.youtube.com/channel/UCRJ499jb7VA2S8goFNkuWtA"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn--ghost"
+                style="margin-top: 0.8rem;"
+              >
+                Abrir canal de VODs
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- YOUTUBE / TODOS OS CANAIS -->
+      <section id="youtube" class="section">
+        <div class="section__inner">
+          <h2 class="section__title">canais do Mount no YouTube</h2>
+          <p class="section__text">
+            Além da Twitch, o Mount organiza o conteúdo em vários canais no
+            YouTube: principal, lives, vods e gameplays.
+          </p>
+
+          <div class="cards-grid" style="margin-top: 2rem;">
+            <!-- Canal principal -->
+            <article class="card">
+              <h3 class="card__title">Canal principal · @mountzera</h3>
+              <p class="card__text">
+                Vídeos principais, conteúdos especiais e uploads preparados para
+                o YouTube.
+              </p>
+              <a
+                href="https://www.youtube.com/mountzera"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn--ghost"
+                style="margin-top: 0.8rem;"
+              >
+                Abrir canal principal
+              </a>
+            </article>
+
+            <!-- Canal de lives -->
+            <article class="card">
+              <h3 class="card__title">Canal de lives · @mountlives</h3>
+              <p class="card__text">
+                Canal dedicado às transmissões ao vivo pelo YouTube, com as
+                lives que rolam fora da Twitch.
+              </p>
+              <a
+                href="https://www.youtube.com/c/mountlives"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn--ghost"
+                style="margin-top: 0.8rem;"
+              >
+                Abrir canal de lives
+              </a>
+            </article>
+
+            <!-- Canal de vods -->
+            <article class="card">
+              <h3 class="card__title">Canal de vods · @mountvods</h3>
+              <p class="card__text">
+                Arquivo das lives, com gravações completas das transmissões pra
+                quem quiser assistir depois.
+              </p>
+              <a
+                href="https://www.youtube.com/channel/UCRJ499jb7VA2S8goFNkuWtA"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn--ghost"
+                style="margin-top: 0.8rem;"
+              >
+                Abrir canal de vods
+              </a>
+            </article>
+
+            <!-- Canal de games -->
+            <article class="card">
+              <h3 class="card__title">Canal de games · @mountgameplays</h3>
+              <p class="card__text">
+                Gameplays e séries de jogos separados do conteúdo de bate-papo
+                e reacts.
+              </p>
+              <a
+                href="https://www.youtube.com/@mountgameplays"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn--ghost"
+                style="margin-top: 0.8rem;"
+              >
+                Abrir canal de games
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMUNIDADE -->
+      <section id="community" class="section section--alt">
+        <div class="section__inner">
+          <h2 class="section__title">comunidade do Mount</h2>
+          <p class="section__text">
+            A comunidade do Mount se reúne no Discord, nas lives e nas clipadas
+            que surgem dos momentos mais aleatórios do chat.
+          </p>
+
+          <div class="cards-grid" style="margin-top: 2rem;">
+            <article class="card">
+              <h3 class="card__title">Servidor no Discord</h3>
+              <p class="card__text">
+                Espaço para trocar ideia fora da live, combinar jogos e
+                acompanhar anúncios de transmissões.
+              </p>
+              <a
+                href="https://discord.gg/rfv5BquA"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn--ghost"
+                style="margin-top: 0.8rem;"
+              >
+                Entrar no Discord
+              </a>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Clipadas da comunidade</h3>
+              <p class="card__text">
+                Momentos engraçados, jogadas e reações que o chat salva e
+                compartilha nas redes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contact" class="section section--alt">
+        <div class="section__inner section__inner--contact">
+          <div>
+            <h2 class="section__title">contato &amp; redes</h2>
+            <p class="section__text">
+              Para propostas comerciais, collabs e parcerias, use o e‑mail
+              abaixo ou entre em contato pelas redes oficiais do canal.
+            </p>
+
+            <p class="section__text section__text--email">
+              <strong>E‑mail:</strong>
+              <a href="mailto:contato@moount.com">contato@moount.com</a>
+            </p>
+
+            <p class="contact-links">
+              <a
+                href="https://www.twitch.tv/mount"
+                target="_blank"
+                rel="noreferrer"
+                >Twitch</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://x.com/moount"
+                target="_blank"
+                rel="noreferrer"
+                >Twitter / X</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://www.instagram.com/mountzera"
+                target="_blank"
+                rel="noreferrer"
+                >Instagram</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://discord.gg/rfv5BquA"
+                target="_blank"
+                rel="noreferrer"
+                >Discord</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://www.youtube.com/mountzera"
+                target="_blank"
+                rel="noreferrer"
+                >YouTube principal</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://www.youtube.com/c/mountlives"
+                target="_blank"
+                rel="noreferrer"
+                >YouTube lives</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://www.youtube.com/channel/UCRJ499jb7VA2S8goFNkuWtA"
+                target="_blank"
+                rel="noreferrer"
+                >YouTube vods</a
+              >
+              &nbsp;•&nbsp;
+              <a
+                href="https://www.youtube.com/@mountgameplays"
+                target="_blank"
+                rel="noreferrer"
+                >YouTube games</a
+              >
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <div class="contact-form__row">
+              <div class="contact-form__field">
+                <label for="name">Nome</label>
+                <input id="name" type="text" placeholder="Seu nome" />
+              </div>
+
+              <div class="contact-form__field">
+                <label for="email">E‑mail</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="seuemail@exemplo.com"
+                />
+              </div>
+            </div>
+
+            <div class="contact-form__field">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Fale sobre a ideia de parceria..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary contact-form__button">
+              Enviar mensagem
+            </button>
+
+            <p class="contact-form__hint">
+              Este formulário é apenas demonstrativo; para propostas oficiais,
+              prefira o e‑mail direto.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Página não oficial feita como estudo de frontend. Números e métricas são
+      aproximados.
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
